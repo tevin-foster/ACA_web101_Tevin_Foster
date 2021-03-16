@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="result.html">
+    <link rel="stylesheet" href="contact-styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <header>
+       <strong>Contact</strong> Page
+    </header>
+    <br>
+    <form action="result.html" method="GET" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="phone">Phone</label><br>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="date">Birthdate</label><br>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <h4>How did you hear about me?</h4>
+        </div>
+        <div>
+            <label for="classmate">Classmate</label>
+            <input type="checkbox" name="classmate" id="classmate">
+        </div>
+        <div>
+            <label for="linkedin">LinkedIn</label>
+            <input type="checkbox" name="linkedin" id="linkedin">
+        </div>
+        <div>
+            <label for="resume">Resume</label>
+            <input type="checkbox" name="resume id=" resume">
+        </div>
+        <div>
+            <label for="codingacademyrec">Coding Academy Rec</label>
+            <input type="checkbox" name="codingacademyrec" id="codingacademyrec">
+        </div>
+        <div>
+            <h4>Do you wish to be contacted?</h4>
+        </div>
+        <div>
+        <span>
+            <label for="yes">Yes</label>
+            <input type="radio" name="contact" id="yes" value="yes">
+        </span>
+        <span>
+            <label for="no">No</label>
+            <input type="radio" name="contact" id="no" value="no">
+        </span>
+    </div>
+        <br>
+        <div>
+            <label for="comments"><strong>Message</strong></label><br>
+            <textarea maxlength="500" minlength="20" id="comments" name="comments" placeholder="Please leave your comments :)"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="file"></label>
+            <input id="file" type="file" name="file">
+        </div>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
