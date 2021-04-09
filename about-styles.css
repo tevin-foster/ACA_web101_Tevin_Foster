@@ -4,6 +4,8 @@ color: white;
 width: 100%;
 height: 100%;
 padding: 0;
+margin: 0;
+/* box-sizing: border-box; */
 }
 .hero{
 background-image: url("./myprofilepic.jpg");
@@ -29,52 +31,59 @@ header{
     /* padding-top: 10%; */
     color: whitesmoke;
     /* z-index: 2; */
-    display: flex;
    
 }
 .content{
 
   width: 50%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: white;
 
 
 }
+
+/* #profile-pic{ */
+    
+
 
 #mySidenav a {
-  position: absolute; 
+ position: absolute;
   left: -80px; 
-  transition: 0.2s; 
-  padding: 10px;
-  width: 100px;
+  transition: 0.3s; 
+  padding: 15px; 
+  width: 100px; 
   text-decoration: none; 
-  font-size: 20px;
-  color: white; 
+  font-size: 20px; 
+  color: whitesmoke; 
   border-radius: 0 5px 5px 0; 
 }
+
 
 #mySidenav a:hover {
   left: 0; 
 }
+.sidenav a:hover {
+  left: 0; 
+}
+
 
 #about {
   top: 20px;
-  background-color: #555 /* Light Black */
+  background-color: rgba(236, 227, 227, 0.151);
 }
 
 #blog {
   top: 80px;
-  background-color: #555 /* Light Black */
+  background-color: rgba(236, 227, 227, 0.151);
 }
 
 #projects {
   top: 140px;
-  background-color: #555 /* Light Black */
+  background-color: rgba(236, 227, 227, 0.151);
 }
 
 #contact {
   top: 200px;
-  background-color: #555 /* Light Black */
+  background-color: rgba(236, 227, 227, 0.151);
 }
 ul {
   display: flex;
@@ -89,9 +98,6 @@ ul {
     top: 50%;
     left: 50%;
     /* transform: translate(-50%, -50%); */
-  }
-  footer{
-    display: flex;
   }
   
   ul li {
@@ -138,14 +144,10 @@ ul {
     text-shadow: 0 0 5px #fd0000;
   }
 
-  @media (max-width: 576px) {
+  @media (min-width: 576px) {
     .hero{
       background: rgb(247, 242, 242);
-      border: rgb(0, 0, 0), solid, 5px;
-      display: flex;
-    }
-    body{
-      flex-shrink: inherit;
+      border: blue, solid, 5px;
     }
   }
 
