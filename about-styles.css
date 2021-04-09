@@ -4,10 +4,7 @@ color: white;
 width: 100%;
 height: 100%;
 padding: 0;
-<<<<<<< HEAD
 margin: 0;
-=======
->>>>>>> 48c48fc8fa38f7bba026c8f48f0094769bc17cae
 }
 .hero{
 background-image: url("./myprofilepic.jpg");
@@ -43,10 +40,7 @@ header{
 
 
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 48c48fc8fa38f7bba026c8f48f0094769bc17cae
 #mySidenav a {
   position: absolute; 
   left: -80px; 
@@ -58,20 +52,17 @@ header{
   color: white; 
   border-radius: 0 5px 5px 0; 
 }
-<<<<<<< HEAD
 #mySidenav a:hover {
   left: 0; 
 }
 .sidenav a:hover {
   left: 0; 
 }
-=======
 
 #mySidenav a:hover {
   left: 0; 
 }
 
->>>>>>> 48c48fc8fa38f7bba026c8f48f0094769bc17cae
 #about {
   top: 20px;
   background-color: #555 /* Light Black */
